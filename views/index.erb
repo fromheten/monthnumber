@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<link href='http://fonts.googleapis.com/css?family=Kameron' rel='stylesheet' type='text/css'>
+
+		<% numerical_month = Time.new.month
+		english_month = case numerical_month
+										when 1 then "January"
+										when 2 then "February"
+										when 3 then "Mars"
+										when 4 then "April"
+										when 5 then "May"
+										when 6 then "June"
+										when 7 then "July"
+										when 8 then "August"
+										when 9 then "September"
+										when 10 then "October"
+										when 11 then "November"
+										when 12 then "December"
+										else "Sysop sucks, something went wrong."
+		end %>
+
+		<link rel=stylesheet href="style.css" type="text/css" media=screen>
+		<title>As long as it's not eternal September it's ok</title>
+	</head>
+	<body><div class="content">
+		<h1>You never learned the numbers of the months?</h1>
+		<h2>Good; that is what computers are for</h2>
+		<p>
+		<code>@time = Time.new ↵</code><br/>
+		<code>@time.zone is <%= Time.new.zone %> ↵</code><br/>
+		<code>@time.month is <%= Time.new.month %> ↵</code><br/>
+		<code>@time.month.to_english is "<%= english_month %>" ↵</code><br/>
+		<code>exit</code>
+	</p></div>
+
+	<footer><p>
+	<code>{by: "<a href="http://cretscard.com/me/">Martin Josefsson</a>", <br/>blog: "<a href="http://cretscard.com/">cretscard.com</a>", <br/>place: Berlin, DE}</code>
+	</p></footer>
+	</body>
+</html>

@@ -1,0 +1,57 @@
+/* This is the style.
+ * Use it with style */
+
+
+body {
+	margin:50px 0px; padding:0px;
+	width:500px;
+	margin:3em auto;
+	text-align:left;
+	padding:15px;
+	border:1px dashed #222;
+	background-color:#fefefe;
+}
+
+h1 {
+	color:#333;
+	font:1.5em/1 Georgia, "Times New Roman", Times, serif;
+	font-weight:300;
+	font-style:italic;
+}
+
+h2 {
+	font-family: 'Kameron', serif;
+	font-weight:100;
+}
+
+code {
+	font-size:1.5em;
+	background:#eee;
+	margin:1%;
+}
+
+a:link {
+  color: #026CB1;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #025CA1;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: underline;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+}
+
+footer {
+	text-size:1em;
+	padding-left: 5em;
+} 
