@@ -3,4 +3,5 @@ This is a simple [Sinatra](http://www.sinatrarb.com/) app to help lazy people (l
 
 ## Licence
 Copyright belongs to Martin Josefsson.
-[GPLv3](https://www.gnu.org/licenses/gpl.html). 
+
+[GPLv3](https://www.gnu.org/licenses/gpl.html) is the way of the future, the yesterday and the tomorrow. 
