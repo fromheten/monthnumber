@@ -1,6 +1,9 @@
 #Life is too short to convert between names and numbers
 This is a simple [Sinatra](http://www.sinatrarb.com/) app to help lazy people (like I) to know what the current month is in digits or English. 
 
+##Live
+The app is up and running on [monthnumber.com](http://www.monthnumber.com/)
+
 ## Licence
 Copyright belongs to Martin Josefsson.
 
