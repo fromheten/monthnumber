@@ -1,6 +1,7 @@
 source "http://rubygems.org"
 
 gem 'sinatra'
+gem 'heroku'
 
 group :test do
   gem 'rspec'
